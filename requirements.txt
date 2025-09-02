@@ -1,0 +1,23 @@
+# Element Digitizer - UI元素数字化标注工具
+# 依赖包列表
+
+# GUI框架
+PyQt6>=6.4.0
+
+# 全局热键支持
+pynput>=1.7.6
+
+# 屏幕截图
+mss>=9.0.1
+
+# 图像处理
+Pillow>=9.5.0
+
+# 系统交互 (Windows平台)
+pywin32>=306; sys_platform == "win32"
+
+# 日志和调试
+loguru>=0.7.0
+
+# JSON Schema验证 (可选，用于调试)
+jsonschema>=4.17.0
