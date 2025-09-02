@@ -25,20 +25,18 @@ Element Digitizer 是一个专业的UI元素标注工具，旨在帮助数据标
 ### 1. 克隆或下载项目
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/Dece1ve-Zhang/Element-Digitizer.git>
 cd element-digitizer
 ```
 
 ### 2. 创建虚拟环境 (推荐)
 
 ```bash
-python -m venv venv
+conda create -n DHDAS python=3.10
 
 # Windows
-venv\Scripts\activate
+conda activate DHDAS
 
-# Linux/macOS
-source venv/bin/activate
 ```
 
 ### 3. 安装依赖
